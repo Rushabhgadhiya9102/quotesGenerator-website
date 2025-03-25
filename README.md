@@ -1,5 +1,5 @@
-# quotesGenerator-website
-# **README Documentation for Quotes Generator Website**
+
+# **Quotes Generator Website**
 
 ## **Project Overview**
 The Quotes Generator Website is a dynamic web application designed to provide users with a collection of inspirational quotes and testimonials. The application features a user-friendly interface that allows users to generate random quotes and view testimonials from various visitors. The website is built using HTML, CSS, and JavaScript, ensuring a responsive and engaging user experience.
