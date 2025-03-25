@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <title>Random quotes Generator</title>
+  </head>
+  <body>
+
+    <!----------------------- N A V I G A T I O N - B A R ---------------------->
+
+    <header>
+      <nav class="navbar fixed w-full bg-white">
+        <div class="container px-28 py-5 flex shadow-lg">
+          <div class="nav-brand">
+            <p class="text-sky-600 text-xl font-bold">Quotes</p>
+          </div>
+          <ul class="navbar-nav flex gap-20 ms-auto">
+            <li class="nav-items">
+              <a href="#" class="nav-links hover:border-b-1 px-3">Home</a>
+            </li>
+            <li class="nav-items">
+              <a href="#" class="nav-links hover:border-b-1 px-3">Quotes</a>
+            </li>
+            <li class="nav-items">
+              <a href="#" class="nav-links hover:border-b-1 px-3">Testimonial</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <!----------------------- N A V I G A T I O N - B A R - E N D --------------------->
+
+    <main>
+
+    <!----------------------- H E R O - S E C T I O N ---------------------->
+
+      <section id="heroSection">
+        <div class="h-screen w-full flex items-center ustify-center">
+          <div class="container px-28 py-10">
+            <div class="hero-content">
+              <h1 class="text-8xl text-cente font-semibold">
+                Welcome to our quote <br />
+                generator site.
+              </h1>
+              <div class="mt-10">
+                <button class="border border-sky-500 text-sky-600 px-10 py-2 rounded-full hover:bg-sky-600 hover:text-white">
+                    Generate a Quote
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+       <!----------------------- H E R O - S E C T I O N - E N D --------------------->
+
+       <!----------------------- Q U O T E S - S E C T I O N ---------------------->
+
+      <section id="quotes" class="quotes bg-gray-100">
+        <div class="container px-28 py-10">
+           <div class="quotes-container">
+
+            <div class="quotes-title text-sky-500">
+              <p class="text-2xl">_quotes</p>
+            </div>
+
+            <div class="quotes-content">
+              <div class="w-full h-100 mt-3 rounded-[1vw]">
+
+                <div class="card-body p-10 h-50">
+                  <i class="bi bi-quote text-sky-500 text-7xl"></i>
+                  <blockquote class="blockquote">
+                    <p class="font-semibold text-5xl w-200"></p>
+                  </blockquote>
+                </div>
+
+                <div class="flex items-end h-50 px-10 pb-5">
+                  <div class="blockquote-footer text-sky-500 text-2xl font-semibold"></div>
+
+                  <div class="ms-auto my-1 text-2xl"> 00:<span id="time">05</span></div>
+
+                  <button class="btn ms-5 text-sky-500">
+                    <i class="bi bi-play-fill text-4xl"></i>
+                    <i class="bi bi-pause text-4xl hidden"></i>
+                  </button>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------------- Q U O T E S - S E C T I O N - E N D --------------------->
+
+      <!----------------------- T E S T I M O N I A L - S E C T I O N ---------------------->
+
+      <section id="testimonial">
+        <div class="container px-28 py-10">
+
+          <div class="testimonial-title">
+            <h2 class="text-8xl font-semibold">Hear what our <br> Visitor say</h2>
+            <p class="text-xl text-sky-600 mt-3">Testimonials__</p>
+          </div>
+         <div class="flex justify-center w-full mt-20">
+           <div class="testimonial-content w-150">
+
+            <div class="testimonial-items ">
+              <div class="card w-150 bg-sky-100 rounded-[1vw] p-5">
+                <div class="img-section flex gap-5 items-center">
+                  <img src="./images/testimonial-1.jpg" class="rounded-full w-20" alt="testimonial-1">
+                  <h2 class="text-2xl font-semibold">Lance vance</h2>
+                </div>
+                <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia expedita quam corporis dicta, a voluptatum earum maxime fugiat vero commodi atque iusto nisi excepturi necessitatibus molestias minus eos totam!</p>
+              </div>
+            </div>
+
+            <div class="testimonial-items hidden">
+              <div class="card w-150 bg-sky-100 rounded-[1vw] p-5">
+                <div class="img-section flex gap-5 items-center">
+                  <img src="./images/testimonial-2.jpg" class="rounded-full w-20" alt="testimonial-1">
+                  <h2 class="text-2xl font-semibold">Tom cruise</h2>
+                </div>
+                <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia expedita quam corporis dicta, a voluptatum earum maxime fugiat vero commodi atque iusto nisi excepturi necessitatibus molestias minus eos totam!</p>
+              </div>
+            </div>
+
+            <div class="testimonial-items hidden">
+              <div class="card w-150 bg-sky-100 rounded-[1vw] p-5">
+                <div class="img-section flex gap-5 items-center">
+                  <img src="./images/testimonial-3.jpg" class="rounded-full w-20" alt="testimonial-1">
+                  <h2 class="text-2xl font-semibold">Richard parker</h2>
+                </div>
+                <p class="mt-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam mollitia expedita quam corporis dicta, a voluptatum earum maxime fugiat vero commodi atque iusto nisi excepturi necessitatibus molestias minus eos totam!</p>
+              </div>
+            </div>
+
+          </div>
+         </div>
+        </div>
+      </section>
+
+      <section class="slider-indicator flex gap-2 justify-center mb-10">
+          <button class="indicator border w-8 h-2 rounded-full bg-sky-500"></button>
+          <button class="indicator border w-8 h-2 rounded-full"></button>
+          <button class="indicator border w-8 h-2 rounded-full"></button>
+      </section>
+
+       <!----------------------- T E S T I M O N I A L - S E C T I O N - E N D --------------------->
+    </main>
+    <script src="./script/script.js"></script>
+  </body>
+</html>
