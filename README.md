@@ -1,8 +1,11 @@
+Certainly! Below is the updated README with the link to the live Quotes Generator Website included in the Project Overview section.
+
+---
 
 # **Quotes Generator Website**
 
 ## **Project Overview**
-The Quotes Generator Website is a dynamic web application designed to provide users with a collection of inspirational quotes and testimonials. The application features a user-friendly interface that allows users to generate random quotes and view testimonials from various visitors. The website is built using HTML, CSS, and JavaScript, ensuring a responsive and engaging user experience.
+The Quotes Generator Website is a dynamic web application designed to provide users with a collection of inspirational quotes and testimonials. The application features a user-friendly interface that allows users to generate random quotes and view testimonials from various visitors. The website is built using HTML, CSS, and JavaScript, ensuring a responsive and engaging user experience. You can view the live application [here](https://quotes-generator-lime.vercel.app/).
 
 ## **Table of Contents**
 - [Features](#features)
